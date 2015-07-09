@@ -8,7 +8,7 @@ This is a prototype implementation of an approach for default reasoning with fir
 
 To start the program, download the jar-file in *dist* and run it:
 
-'''java -jar RelationalSystemZ.jar'''
+```java -jar RelationalSystemZ.jar```
 
 ## Background
 
