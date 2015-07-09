@@ -1,0 +1,12 @@
+# KB7
+# bird and penguin without subclass relation
+
+signature
+    D={p}
+    B(D), P(D), F(D)
+
+conditionals
+    Conditionals{
+        (F(X)|B(X)), (!F(X)|P(X))
+    }
+    Facts{}

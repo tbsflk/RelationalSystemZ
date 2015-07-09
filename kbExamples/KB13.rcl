@@ -1,0 +1,12 @@
+# KB13
+# lottery paradox
+
+signature
+    D={a,b}
+    W(D)
+
+conditionals
+    Conditionals{
+        (!W(X)), (W(a))
+    }
+    Facts{}

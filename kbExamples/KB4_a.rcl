@@ -1,0 +1,16 @@
+# KB4
+# birds, penguins and super-penguins
+
+signature
+    D={p,t,s,a}
+    B(D), P(D), S(D), F(D), W(D)
+
+conditionals
+    Conditionals{
+        (F(X)|B(X)), (W(X)|B(X)), (!F(X)|P(X)), (F(X)|S(X))
+    }
+    Facts{
+        (B(p)), (P(t)), (S(s))
+        (!S(p); P(p)), (!S(t); P(t)), (!S(s); P(s)), (!S(a); P(a))
+        (!P(p); B(p)), (!P(t); B(t)), (!P(s); B(s)), (!P(a); B(a))
+    }

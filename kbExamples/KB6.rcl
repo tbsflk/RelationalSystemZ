@@ -1,0 +1,14 @@
+# KB6
+# bird and penguin
+
+signature
+    D={p,t}
+    B(D), P(D), F(D)
+
+conditionals
+    Conditionals{
+        (F(X)|B(X)), (!F(X)|P(X))
+    }
+    Facts{
+        (!P(p);B(p)), (!P(t);B(t))
+    }

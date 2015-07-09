@@ -1,0 +1,14 @@
+# KB12
+# nixon diamon
+
+signature
+    D={n,f}
+    R(D), Q(D), P(D)
+
+conditionals
+    Conditionals{
+        (!P(X)|R(X)), (P(X)|Q(X))
+    }
+    Facts{
+        (R(n)), (Q(n)), #(R(f))
+    }

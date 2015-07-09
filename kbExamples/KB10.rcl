@@ -1,0 +1,14 @@
+# KB10
+# bird and penguin with facts but no subclass
+
+signature
+    D={p,t}
+    B(D), P(D), F(D)
+
+conditionals
+    Conditionals{
+        (F(X)|B(X)), (!F(X)|P(X))
+    }
+    Facts{
+        (!B(t)), (!P(p))
+    }

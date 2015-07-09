@@ -1,0 +1,15 @@
+# KB11
+# bird, penguins and eagles
+
+signature
+    D={p,t}
+    B(D), P(D), F(D), W(D), E(D), R(D)
+
+conditionals
+    Conditionals{
+        (F(X)|B(X)), (!F(X)|P(X)), (W(X)|B(X))
+    }
+    Facts{
+        (!P(p);B(p)), (!P(t);B(t)), (!E(p);B(p)), (!E(t);B(t))
+        (B(p)), (P(t))
+    }

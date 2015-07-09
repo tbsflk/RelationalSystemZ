@@ -1,0 +1,13 @@
+The program can be started from the command line with
+
+	java -jar RelationalSystemZ.jar
+
+All necessary binaries as well as the used libraries are included in the jar-file. 
+
+A documentation of the functionality of the program can be found in chapter 4 of the thesis (see folder misc).
+
+In order to provide enough heap space for all possible worlds to be generated, it might be necessary to adapt the maximum heap space size of the used JVM. This can be done by passing a corresponding parameter to the JVM when starting the program:
+
+	java -Xmx1400m -jar RelationalSystemZ.jar
+
+Please note that it is necessary to use a 64-bit JVM to allocate a heap size of several GB.

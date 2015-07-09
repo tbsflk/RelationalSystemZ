@@ -1,0 +1,11 @@
+# KB5
+# propositional edge-case for birds, penguins and super-penguins
+
+signature
+    B(), P(), S(), F(), W()
+
+conditionals
+    Conditionals{
+        (F|B), (W|B), (!F|P), (B|P), (F|S), (P|S), 
+    }
+    Facts{} 
