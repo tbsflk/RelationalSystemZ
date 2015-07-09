@@ -24,6 +24,6 @@ The implementation is based on the *Log4KR* library that provides data structure
 
 [https://www.fernuni-hagen.de/wbs/research/log4kr/index.html](https://www.fernuni-hagen.de/wbs/research/log4kr/index.html)
 
-It is a sub project of the *KReator* project:
+It is a sub project of the *KReator* project which can be found on SourceForge:
 
 [http://kreator-ide.sourceforge.net/](http://kreator-ide.sourceforge.net/)
